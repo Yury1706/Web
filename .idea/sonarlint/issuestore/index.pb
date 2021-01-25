@@ -1,0 +1,19 @@
+
+O
+src/main/webapp/WEB-INF/web.xml,2\e\2e22b6edd746fa3dc40ad7276c87c8d87d72a392
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+X
+(src/main/java/by/example/TestSpring.java,9\3\93356b2d598c2b58589e85545222bc01c3170dd6
+V
+&src/main/java/by/example/TestBean.java,2\e\2e17f6f247bcd9bd92da1e24c8334a5253422512
+S
+#src/main/java/by/example/Music.java,3\5\35c977cec7bbc82fe8bfb3453832cae6327c1a21
+\
+,src/main/java/by/example/ClassicalMusic.java,0\8\085367214049b5f1c9c03533000f4e97f598f98f
+W
+'src/main/java/by/example/RockMusic.java,0\9\093388633edf9526eb2cf78299247c6f050e0431
+Y
+)src/main/java/by/example/MusicPlayer.java,3\1\31c8241db46a95b368fe1ab8f490e05ce5822248
+V
+&src/main/java/by/example/RapMusic.java,3\5\356e9c794a37b79adb6299284032144a26fb8fde
