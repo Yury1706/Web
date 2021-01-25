@@ -19,28 +19,32 @@
     </bean>
 
     <bean id="musicBean1"
-          class="by.example.RockMusic">
+          class="by.example.RockMusic"
+          factory-method="getRockMusic">
     </bean>
 
     <bean id="musicBean2"
-          class="by.example.RapMusic">
+          class="by.example.RapMusic"
+          init-method="initBean"
+          destroy-method="destroyBean"
+          scope="prototype">
     </bean>
 
-<!--    <bean id="musicPlayerBean"-->
-<!--          class="by.example.MusicPlayer">-->
-<!--        <constructor-arg ref="musicBean"/>-->
-<!--    </bean>-->
+    <!--    <bean id="musicPlayerBean"-->
+    <!--          class="by.example.MusicPlayer">-->
+    <!--        <constructor-arg ref="musicBean"/>-->
+    <!--    </bean>-->
 
-<!--    <bean id="musicPlayer1"-->
-<!--    class="by.example.MusicPlayer">-->
-<!--        <property name="music" ref="musicBean1"/>-->
-<!--        <property name="name" value="${musicPlayer.name}"/>-->
-<!--        <property name="volume" value="${musicPlayer.volume}"/>-->
-<!--    </bean>-->
+    <!--    <bean id="musicPlayer1"-->
+    <!--    class="by.example.MusicPlayer">-->
+    <!--        <property name="music" ref="musicBean1"/>-->
+    <!--        <property name="name" value="${musicPlayer.name}"/>-->
+    <!--        <property name="volume" value="${musicPlayer.volume}"/>-->
+    <!--    </bean>-->
 
     <bean id="musicPlayer3"
           class="by.example.MusicPlayer">
-        <property name="music">
+        <property name="musicList">
             <list value-type="by.example.Music">
                 <ref bean="musicBean"/>
                 <ref bean="musicBean1"/>

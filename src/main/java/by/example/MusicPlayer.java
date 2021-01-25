@@ -27,7 +27,7 @@ public class MusicPlayer {
         this.volume = volume;
     }
 
-    public void setMusic(List<Music> musicList) {
+    public void setMusicList(List<Music> musicList) {
         this.musicList = musicList;
     }
 
